@@ -1,0 +1,16 @@
+.field{
+    width:100%;
+}
+.container{
+    margin:auto;
+    width:50%;
+}
+.innerContainer h1{
+    text-align: center;
+}
+.buttons {
+    display: grid;
+}
+.buttons #resetButton{
+    margin-top: 20px;
+}

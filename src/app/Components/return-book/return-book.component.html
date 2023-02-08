@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="innerContainer">
+        <h1>Fill up the following details</h1>
+        <form (ngSubmit)="returnBookForm()">
+            <mat-form-field class="field" appearance="fill">
+              <mat-label>Student Id</mat-label>
+              <input matInput name="studentId" [(ngModel)]="studentId">
+            </mat-form-field>
+            <mat-form-field class="field" appearance="fill">
+                <mat-label>Book Id</mat-label>
+                <input matInput name="bookId" [(ngModel)]="bookId">
+              </mat-form-field>
+              
+              <div class="buttons">
+                <button type="submit" mat-raised-button color="primary">Submit</button>
+                <button id="resetButton" type="reset" mat-raised-button color="primary">Reset</button>
+              </div>      
+            
+          </form>
+          
+    </div>
+</div>
